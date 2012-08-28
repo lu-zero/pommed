@@ -766,6 +766,9 @@ check_machine_dmi(void)
   /* MacBook Pro 15" (Mid 2012) */
   else if ((strcmp(buf, "MacBookPro9,1") == 0))
     ret = MACHINE_MACBOOKPRO_9;
+  /* Macbook Pro 13" (Mid 2012) */
+  else if ((strcmp(buf, "MacBookPro9,2") == 0))
+    ret = MACHINE_MACBOOKPRO_9;
   /* Core Duo MacBook (May 2006) */
   else if (strcmp(buf, "MacBook1,1") == 0)
     ret = MACHINE_MACBOOK_1;
