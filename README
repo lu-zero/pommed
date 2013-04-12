@@ -17,6 +17,7 @@ Kernel version requirements:
 
  February and October 2008 machines require a 2.6.28 kernel for full support.
 
+ January 2011 machines require a 3.9 kernel for full support.
 
 Supported machines:
 -------------------

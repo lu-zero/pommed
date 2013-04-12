@@ -16,7 +16,7 @@
  * You should have received a copy of the GNU General Public License along
  * with this program; if not, write to the Free Software Foundation, Inc.,
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
- */ 
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -47,6 +47,7 @@ enum {
   SYSFS_DRIVER_NVIDIA,
   SYSFS_DRIVER_NOUVEAU,
   SYSFS_DRIVER_ACPI,
+  SYSFS_DRIVER_GMUX,
 #endif
   SYSFS_DRIVER_MAX
 };
@@ -70,6 +71,7 @@ static char *actual_brightness[] =
     "/sys/class/backlight/nvidia_backlight/actual_brightness",
     "/sys/class/backlight/nv_backlight/actual_brightness",
     "/sys/class/backlight/acpi_video0/actual_brightness",
+    "/sys/class/backlight/gmux_backlight/actual_brightness",
 #endif
   };
 
@@ -88,6 +90,7 @@ static char *brightness[] =
     "/sys/class/backlight/nvidia_backlight/brightness",
     "/sys/class/backlight/nv_backlight/brightness",
     "/sys/class/backlight/acpi_video0/brightness",
+    "/sys/class/backlight/gmux_backlight/brightness",
 #endif
   };
 
@@ -106,6 +109,7 @@ static char *max_brightness[] =
     "/sys/class/backlight/nvidia_backlight/max_brightness",
     "/sys/class/backlight/nv_backlight/max_brightness",
     "/sys/class/backlight/acpi_video0/max_brightness",
+    "/sys/class/backlight/gmux_backlight/max_brightness",
 #endif
   };
 
