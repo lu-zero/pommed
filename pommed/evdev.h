@@ -82,6 +82,10 @@
 #define USB_PRODUCT_ID_MAC2012_ISO        0x0253
 #define USB_PRODUCT_ID_MAC2012_JIS        0x0254
 
+#define USB_PRODUCT_ID_MAC2013_ANSI       0x0262
+#define USB_PRODUCT_ID_MAC2013_ISO        0x0263
+#define USB_PRODUCT_ID_MAC2013_JIS        0x0264
+
 /* Apple external USB keyboard, white */
 #define USB_PRODUCT_ID_APPLE_EXTKBD_WHITE   0x020c
 
